@@ -53,9 +53,7 @@
 	font-size: 1.2em;
 }
 
-.hero-content {
-	padding:  10rem 5rem;
-}
+
 
 .hero-nav {
 	padding: 2rem;
@@ -91,15 +89,32 @@
 	font-size: 2em;
 }
 
-#about {
-	background-color: #363636;
-	color:white;
-}
+
 
 .about-icon-div >img {
 	width:48px;
 }
 
 .about-img {
-	width: 50%;
+	width: 70%;
+}
+
+
+
+#courses div {
+	padding-top:1em;
+	padding-bottom:1em;
+}
+
+#courses> div:nth-child(even){
+	background: #202020;
+}
+
+.course-name {
+	font-size: 2em;
+}
+
+.discount {
+	font-size: 3em;
+	text-transform: uppercase;
 }
