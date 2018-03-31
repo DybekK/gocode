@@ -1,0 +1,19 @@
+kolory czcionki na stronie
+white
+#c6b751
+
+hero
+----------------
+background #363636
+
+
+about
+----------------
+background #2f302e
+
+
+
+our projects
+----------------
+background #202020
+background #2a2a2a
