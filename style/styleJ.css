@@ -1,2 +1,90 @@
 
 
+
+#hero {
+	background-image: url(../assets/hero/house.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	color:white;
+}
+
+#hero-right-panel > div {
+	background-color: #363636;
+}
+
+#hero-right-panel {
+	margin: 0;
+	padding: 0;
+}
+
+.hero-right-panel-icon-large {
+	width: 100px;
+}
+.hero-right-panel-icon-mini {
+	width: 32px;
+
+}
+
+.gocode-fontcolor {
+	color: #c6b751;
+}
+
+.button {
+	background: transparent;
+	border: 0;
+	margin: 0;
+	padding: 0;
+	border-radius: 20px;
+	font-weight: bold;
+}
+
+.button-yellow {
+	background-color: #c6b751;
+	color: white;
+	
+}
+
+.button-middle {
+	padding: .5em 1.5em;
+	font-size: 1.2em;
+}
+
+.hero-content {
+	padding:  10rem 5rem;
+}
+
+.hero-nav {
+	padding: 2rem;
+}
+.hero-nav a {
+	color: #e8e8e8;
+	text-decoration: none;
+	transition: .3s ease;
+}
+.hero-nav a:after{
+	
+	content: "";
+	height: 1px;
+	width: 0;
+	background: white;
+	display: flex;
+	transition: .3s ease;
+}
+.hero-nav a:hover{
+	color: white;
+}
+
+.hero-nav a:hover:after {
+	
+	width: 50%;
+}
+
+.hero-content-title {
+	font-size: 4em;
+}
+
+.hero-content-subtitle {
+	font-size: 2em;
+}
