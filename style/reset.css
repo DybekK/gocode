@@ -1,8 +1,41 @@
-body{
-overflow-x: hidden;
-margin: 0;
-padding: 0;
-font-family: 'Open Sans', sans-serif;
+body {
+	overflow-x: hidden;
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans', sans-serif;
 }
-.oregano-font {font-family: 'Oregano', cursive;}
 
+.container-left {
+	padding-left: 5rem;
+}
+
+.container-left-right {
+	padding-left: 5rem;
+	padding-right: 5rem;
+}
+
+.container-right {
+	padding-right: 5rem;
+
+}
+
+.container-top {
+	padding-top: 7rem;
+
+}
+
+.container-top-bottom {
+	padding-top: 7rem;
+	padding-bottom: 7rem;
+
+}
+
+.container-bottom {
+	padding-bottom: 7rem;
+
+}
+
+.container-all {
+	padding: 7rem 5rem;
+
+}

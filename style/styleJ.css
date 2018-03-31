@@ -90,3 +90,16 @@
 .hero-content-subtitle {
 	font-size: 2em;
 }
+
+#about {
+	background-color: #363636;
+	color:white;
+}
+
+.about-icon-div >img {
+	width:48px;
+}
+
+.about-img {
+	width: 50%;
+}
