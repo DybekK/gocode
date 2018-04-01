@@ -25,10 +25,15 @@
 	width: 100px;
 }
 .hero-right-panel-icon-mini {
-	width: 32px;
-
+	width: 33px;
+    padding: 2em 0;
 }
-
+.icon{
+    height: 35%;
+}
+.social-media{
+    height: 65%;
+}
 .gocode-fontcolor {
 	color: #c6b751;
 }
@@ -42,17 +47,15 @@
 	font-weight: bold;
 }
 
-.button-yellow {
-	background-color: #c6b751;
-	color: white;
-	
+.btn-yellow {
+    color: white;
+    font-size: 1.8em;
+    text-decoration: none;
+    background-color:#c6b751;
+    border-radius: 20px;
+    border: 0;
+    padding: 0.1em 1em 0.1em 1em;
 }
-
-.button-middle {
-	padding: .5em 1.5em;
-	font-size: 1.2em;
-}
-
 
 
 .hero-nav {
@@ -82,22 +85,48 @@
 }
 
 .hero-content-title {
-	font-size: 4em;
+	font-size: 3.5em;
 }
 
 .hero-content-subtitle {
 	font-size: 2em;
+    width: 80%;
+    margin-top: 1.5em;
+}
+
+#about {
+    padding-bottom: 2em;
+}
+
+
+#about h1 {
+    margin-top: 1em;
+
+}
+
+#about h2 {
+    margin-top: 1.4em;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+#about p {
+    line-height: 1.7em;
+}
+
+#about .second-column img {
+    height: 65px;
+    margin: 0.5em 0 0.5em 0;
+}
+
+#about .third-column img {
+    width: 100%;
 }
 
 
 
-.about-icon-div >img {
-	width:48px;
-}
 
-.about-img {
-	width: 70%;
-}
+
 
 
 
@@ -117,4 +146,27 @@
 .discount {
 	font-size: 3em;
 	text-transform: uppercase;
+}
+@media only screen and (max-width:700px) {
+    .gocode-fontcolor {
+    margin-top: 4em;
+	color: #c6b751;
+}
+ .hero-right-panel-icon-large {
+	margin-bottom: 1em;
+}
+    
+    .hero-content-title {
+	font-size: 3em;
+}
+
+.hero-content-subtitle {
+	font-size: 1.5em;
+    width: 100%;
+    margin-top: 1.5em;
+}
+    #about .second-column img {
+        height: 85px;
+        margin: 2em;
+    }
 }
