@@ -39,6 +39,9 @@
 #send-message h3{
  margin: 0;   
 }
+#send-message p{
+    font-size: 1.3em;
+}
 #footer{
    margin: 2.5em 0 0 0;
     border-top: 1px solid #878787;
@@ -76,6 +79,10 @@ margin-right: 2em;
 
 
 @media only screen and (max-width:700px) {
+    .course-two,.course-four{
+        display: flex;
+        flex-direction: column-reverse;
+    }
 #banner{
    
     height: 17em;

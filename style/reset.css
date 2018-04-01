@@ -96,3 +96,10 @@ h2{
 
 }
 }
+@media only screen and (max-width:700px) {
+    .btn-yellow {
+    font-size: 1.3em;
+        padding: 0.6em 1.2em;
+        border-radius: 50px;
+}
+}
