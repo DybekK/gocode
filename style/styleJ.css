@@ -33,6 +33,7 @@
 }
 .social-media{
     height: 65%;
+    
 }
 .gocode-fontcolor {
 	color: #c6b751;
@@ -142,6 +143,7 @@
 }
 /* Zmienilem troche klasy na mobilki */
 @media only screen and (max-width:700px) {
+
     .gocode-fontcolor {
     margin-top: 5em;
 	color: #c6b751;
