@@ -1,6 +1,6 @@
 /* FLEX-DIRECTION - ROW */
 
-` .start-row {
+.start-row {
     display: flex;
     justify-content: flex-start;
 }
@@ -8,7 +8,6 @@
 .center-row {
     display: flex;
     justify-content: center;
-	text-align: center;
 }
 
 .end-row {
@@ -19,7 +18,7 @@
 .top-row {
     display: flex;
     align-items: flex-start;
-}`
+}
 
 .middle-row {
     display: flex;

@@ -47,15 +47,6 @@
 	font-weight: bold;
 }
 
-.btn-yellow {
-    color: white;
-    font-size: 1.8em;
-    text-decoration: none;
-    background-color:#c6b751;
-    border-radius: 20px;
-    border: 0;
-    padding: 0.1em 1em 0.1em 1em;
-}
 
 
 .hero-nav {
@@ -94,6 +85,8 @@
     margin-top: 1.5em;
 }
 
+/* Dodalem tutaj swoje klasy */
+
 #about {
     padding-bottom: 2em;
 }
@@ -128,7 +121,7 @@
 
 
 
-
+/* Dodalem tutaj swoje klasy */
 
 #courses div {
 	padding-top:1em;
@@ -147,6 +140,7 @@
 	font-size: 3em;
 	text-transform: uppercase;
 }
+/* Zmienilem troche klasy na mobilki */
 @media only screen and (max-width:700px) {
     .gocode-fontcolor {
     margin-top: 4em;
