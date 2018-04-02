@@ -1,5 +1,4 @@
-
-
+/*HERO*/
 
 #hero {
 	background-image: url(../assets/hero/house.jpg);
@@ -7,7 +6,47 @@
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-position: center;
-	color:white;
+	color: white;
+}
+
+
+#hero-nav {
+	padding: 2rem;
+}
+
+#hero-nav a {
+	color: #e8e8e8;
+	text-decoration: none;
+	transition: .3s ease;
+}
+
+#hero-nav a:after {
+
+	content: "";
+	height: 1px;
+	width: 0;
+	background: white;
+	display: flex;
+	transition: .3s ease;
+}
+
+#hero-nav a:hover {
+	color: white;
+}
+
+#hero-nav a:hover:after {
+
+	width: 50%;
+}
+
+.hero-content-title {
+	font-size: 3.5em;
+}
+
+.hero-content-subtitle {
+	font-size: 2em;
+	width: 80%;
+	margin-top: 1.5em;
 }
 
 #hero-right-panel > div {
@@ -19,25 +58,35 @@
 	padding: 0;
 }
 
-
-
 .hero-right-panel-icon-large {
 	width: 100px;
 }
+
 .hero-right-panel-icon-mini {
 	width: 33px;
-    padding: 2em 0;
+	padding: 2em 0;
 }
-.icon{
-    height: 35%;
+
+.hero-nav-logo {
+	display: none;
 }
-.social-media{
-    height: 65%;
-    
+
+
+
+.icon {
+	height: 35%;
 }
+
+.social-media {
+	height: 65%;
+
+}
+
 .gocode-fontcolor {
 	color: #c6b751;
 }
+
+/*BUTTON*/
 
 .button {
 	background: transparent;
@@ -48,73 +97,49 @@
 	font-weight: bold;
 }
 
-
-
-.hero-nav {
-	padding: 2rem;
-}
-.hero-nav a {
-	color: #e8e8e8;
-	text-decoration: none;
-	transition: .3s ease;
-}
-.hero-nav a:after{
-	
-	content: "";
-	height: 1px;
-	width: 0;
-	background: white;
-	display: flex;
-	transition: .3s ease;
-}
-.hero-nav a:hover{
+.btn-yellow {
 	color: white;
+	font-size: 1.8em;
+	text-decoration: none;
+	background-color: #c6b751;
+	border-radius: 20px;
+	border: 0;
+	padding: 0.1em 1em 0.1em 1em;
 }
 
-.hero-nav a:hover:after {
-	
-	width: 50%;
-}
 
-.hero-content-title {
-	font-size: 3.5em;
-}
-
-.hero-content-subtitle {
-	font-size: 2em;
-    width: 80%;
-    margin-top: 1.5em;
-}
 
 /* Dodalem tutaj swoje klasy */
 
+/*ABOUT*/
+
 #about {
-    padding-bottom: 2em;
+	padding-bottom: 2em;
 }
 
 
 #about h1 {
-    margin-top: 1em;
+	margin-top: 1em;
 
 }
 
 #about h2 {
-    margin-top: 1.4em;
-    text-align: center;
-    margin-bottom: 1em;
+	margin-top: 1.4em;
+	text-align: center;
+	margin-bottom: 1em;
 }
 
 #about p {
-    line-height: 1.7em;
+	line-height: 1.7em;
 }
 
 #about .second-column img {
-    height: 65px;
-    margin: 0.5em 0 0.5em 0;
+	height: 65px;
+	margin: 0.5em 0 0.5em 0;
 }
 
 #about .third-column img {
-    width: 100%;
+	width: 100%;
 }
 
 
@@ -124,12 +149,14 @@
 
 /* Dodalem tutaj swoje klasy */
 
+/*COURSES*/
+
 #courses div {
-	padding-top:1em;
-	padding-bottom:1em;
+	padding-top: 1em;
+	padding-bottom: 1em;
 }
 
-#courses> div:nth-child(even){
+#courses > div:nth-child(even) {
 	background: #202020;
 }
 
@@ -141,28 +168,64 @@
 	font-size: 3em;
 	text-transform: uppercase;
 }
+
 /* Zmienilem troche klasy na mobilki */
+
 @media only screen and (max-width:700px) {
+	/*HERO NA MOBILKI*/
+	.hero-nav-opt {
+		background: #363636;
+		padding: 1em;
 
-    .gocode-fontcolor {
-    margin-top: 5em;
-	color: #c6b751;
-}
- .hero-right-panel-icon-large {
-	margin-bottom: 1em;
-}
-    
-    .hero-content-title {
-	font-size: 3em;
-}
+	}
+	#hero > .col-xs-12:first-child {
+		padding: 0;
+	}
 
-.hero-content-subtitle {
-	font-size: 1.5em;
-    width: 100%;
-    margin-top: 1.5em;
-}
-    #about .second-column img {
-        height: 85px;
-        margin: 2em;
-    }
+	#hero-nav {
+		width: 100%;
+		margin: 0;
+		background: #202020;
+		position: fixed;
+		padding: 0;
+
+	}
+
+	.hero-nav-logo > img {
+		display: flex;
+		width: 1em;
+		height: 1em;
+
+	}
+	.hero-nav-logo {
+		display: flex;
+		font-size: .8em;
+		padding-top: 1em;
+		padding-bottom: 1em;
+	}
+
+	.hero-nav-opt-none {
+		display: none;
+
+	}
+
+	.hero-content-title {
+		font-size: 3em;
+	}
+	.hero-content-subtitle {
+		font-size: 1.5em;
+		width: 100%;
+		margin-top: 1.5em;
+	}
+
+
+	.gocode-fontcolor {
+		margin-top: 5em;
+		color: #c6b751;
+	}
+
+	#about .second-column img {
+		height: 85px;
+		margin: 2em;
+	}
 }
