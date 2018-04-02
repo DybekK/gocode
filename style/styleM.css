@@ -69,7 +69,7 @@
 
 #footer a:hover {
     transition: 0.3s;
-    color: #c6b751;
+    color: goldenrod;
 }
 
 .footer-bottom {
@@ -122,15 +122,15 @@
 
 
 .opinion:hover {
-    border: 1px solid #c6b751;
+    border: 1px solid goldenrod;
     transition: 0.3s;
     color: white;
 }
 
 
 .opinion:hover:after {
-    border-right: 1px solid #c6b751;
-    border-bottom: 1px solid #c6b751;
+    border-right: 1px solid goldenrod;
+    border-bottom: 1px solid goldenrod;
     transition: 0.3s;
 }
 

@@ -89,29 +89,13 @@
 }
 
 .gocode-fontcolor {
-	color: #c6b751;
+	color: goldenrod;
 }
 
 /*BUTTON*/
 
-.button {
-	background: transparent;
-	border: 0;
-	margin: 0;
-	padding: 0;
-	border-radius: 20px;
-	font-weight: bold;
-}
 
-.btn-yellow {
-	color: white;
-	font-size: 1.8em;
-	text-decoration: none;
-	background-color: #c6b751;
-	border-radius: 20px;
-	border: 0;
-	padding: 0.1em 1em 0.1em 1em;
-}
+
 
 
 
