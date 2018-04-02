@@ -1,5 +1,5 @@
 var button = document.getElementById("ham-button"),
-	h = document.getElementsByClassName("hero-nav-opt");
+	h = document.getElementsByClassName("container-for-option");
 if (button) {
 	button.onclick = function () {
 		for (var i = 0; i < h.length; i++) {
