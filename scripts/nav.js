@@ -1,9 +1,9 @@
 var button = document.getElementById("ham-button"),
-	h = document.getElementsByClassName("container-for-option");
+	h = document.getElementsByClassName("container-for-option")[0];
 if (button) {
 	button.onclick = function () {
-		for (var i = 0; i < h.length; i++) {
-			h[i].classList.toggle("hero-nav-opt-none");
-		};
+		
+			h.classList.toggle("hero-nav-opt-none");
+	
 	}
 } 
