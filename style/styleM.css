@@ -1,6 +1,15 @@
-#banner {
+#banner-first {
+    background-image: url(../assets/banner/computer.jpeg);
     width: 100%;
-    height: 33em;
+    background-position: center;
+    background-size: cover;
+    padding-top: 7.5em;
+    padding-bottom: 7.5em;
+}
+
+#banner-second {
+    width: 100%;
+    height: 30em;
     background-image: url(../assets/banner/banner.jpeg);
     background-position: center;
     background-size: cover;
@@ -109,9 +118,11 @@
     padding: 2em;
     font-size: 1em;
 }
-#what-thinks .name{
-   color: #a8a8a8;
+
+#what-thinks .name {
+    color: #a8a8a8;
 }
+
 .opinion {
     position: relative;
     margin-top: 1.5em;
