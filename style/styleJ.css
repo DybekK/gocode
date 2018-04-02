@@ -12,6 +12,7 @@
 
 #hero-nav {
 	padding: 3rem;
+    z-index: 100;
 }
 
 #hero-nav a {
