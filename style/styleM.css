@@ -4,6 +4,7 @@
 	background-image: url(../assets/banner/banner.jpeg);
 	background-position: center;
 	background-size: cover;
+    
 }
 
 #send-message p {
@@ -32,7 +33,7 @@
 	margin-top: 2em;
 	border: 0;
 	border-radius: 50px;
-	height: 4em;
+	height: 10em;
 	width: 100%;
 	margin-bottom: 2.5em;
 	background-color: #454444;
@@ -87,7 +88,19 @@
 	margin: 0;
 	font-size: 3em;
 }
-
+.mail-info h3:not(:first-child){
+    padding:0.5em 0;
+    color: #9b9b9b;
+}
+.mail-info h3:first-child{
+    padding-top: 3em;
+        color: #9b9b9b;
+    padding-bottom: 0.5em;
+}
+.bottom-icon-mini{
+    height: 40px;
+    margin-top: 1em;
+}
 @media only screen and (max-width:991px) {
 	.gocode-fontcolor {
 		margin-top: 4em;
